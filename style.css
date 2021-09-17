@@ -1,0 +1,63 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(img/yoda-bg.png);
+    background-position: center;
+}
+
+#header{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+    color: aqua;
+}
+
+@media only screen and (max-width: 600px){
+    #header{
+        width: 90%;
+    }
+}
+#header p{
+    font-size: 1.5rem;
+}
+
+.middle-container{
+    width: 50%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 600px){
+    .middle-container{
+        width: 90%;
+    }
+}
+
+.middle-container .textarea1{
+    width: 100%;
+    height: 15vh;
+    border-radius: 5px;
+    border: 2px solid aqua;
+}
+
+.middle-container .btn{
+    margin: 1.5em 0;
+    font-size: 1.3rem;
+    padding: .3em 1.5em;
+    border: 2px solid aqua;
+    background-color: #fff;
+    color: aqua;
+    border-radius: 5px;
+}
+
+.middle-container .textarea2{
+    width: 100%;
+    height: 15vh;
+    border-radius: 5px;
+    border: 2px solid aqua;
+}
+#footer{
+    color: aqua;
+    text-align: center;
+    margin: 2em;
+}
